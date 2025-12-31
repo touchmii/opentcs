@@ -1,0 +1,4 @@
+[submodule "opentcs-commadapter-vda5050"]
+	path = opentcs-commadapter-vda5050
+	url = https://github.com/touchmii/opentcs-commadapter-vda5050.git
+	branch = opentcs7

@@ -17,6 +17,7 @@ dependencies {
   api project(':opentcs-api-injection')
   api project(':opentcs-common')
   api project(':opentcs-commadapter-loopback')
+  api project(':opentcs-commadapter-vda5050')
   api project(':opentcs-peripheralcommadapter-loopback')
   api project(':opentcs-strategies-default')
   api project(':opentcs-impl-configuration-gestalt')
@@ -24,6 +25,11 @@ dependencies {
   api project(':opentcs-kernel-extension-rmi-services')
 
   implementation libs.huxhorn.sulky.ulid
+
+//  implementation("org.opentcs.commadapter.vehicle.vda5050:opentcs-commadapter-vda5050:0.26.0")
+//  runtimeOnly("org.opentcs.commadapter.vehicle.vda5050:opentcs-commadapter-vda5050:0.26.0")
+//  runtimeOnly "org.opentcs.commadapter.vehicle.vda5050:opentcs-commadapter-vda5050:0.27.0-b1483"
+//  implementation 'org.opentcs.commadapter.vehicle.vda5050:opentcs-commadapter-vda5050:0.26.0'
 
   runtimeOnly libs.slf4j.jdk14
 }
